@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/background.jpg"'); /* Replace with your image URL */
+    background-size: cover;
+  }
+  
+  
+  /* Form container */
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+  }
+
+  /* Text and button on the right side */
+  .text-and-button {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  #background {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.nav-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+

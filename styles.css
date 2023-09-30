@@ -1,0 +1,96 @@
+body {
+    background: #012132;
+    background: linear-gradient(to bottom right, #012132, #000000);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+#interviewRecorder {
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mask {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+
+
+#wowWorkContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+#wowWorkText {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#videoContainer {
+    width: 640px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#interviewQuestions {
+    margin-top: 20px;
+    text-align: center;
+}
+
